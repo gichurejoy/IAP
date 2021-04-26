@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="Register.css" />
+  <link rel="stylesheet" type="text/css" href="foodiegang.css" />
+</head>
+<body>
+  <div class="logo">
+    <img src="foodieganglogo2.png" />
+  </div>
+  <nav class="link">
+    <a href="indexpage.html">Home</a>
+    <a href="Reservation">Reservation</a>
+    <a href="Login.html">Login</a>
+    <a href="Register.html">Register</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+
+  <div class="form">
+    <h2>user registration</h2>
+
+    <form action="foodiegang.php" method="post">
+      <div class="input">
+        <input type="text" name="firstname" required="" />
+        <label>First name</label>
+      </div>
+      <div class="input1">
+        <input type="text" name="lastname" required="" />
+        <label>Last name</label>
+      </div>
+
+        
+      <div class="input">
+        <div class="input">
+          <input type="id" name="idnumber" required="" />
+          <label>id number</label>
+        </div>
+        <div class="input1">
+          <input type="email" name="email" required="" />
+          <label>Email</label>
+        </div>
+        <div class="input">
+          <input type="password" name="password" required="" />
+          <label>Password</label>
+        </div>
+        <div class="input1">
+          <input type="password" name="confirm_password" required="" />
+          <label class="right">confirm password</label><br /><br />
+        </div>
+      </div>
+
+      <br />
+     
+      <input type="submit" name="register" value="Register" />
+
+      <p>Already have an account?<a href="Login.html">Login</a></p>
+    </form>
+  </div>
+</body>
+</html>
+
